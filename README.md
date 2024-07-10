@@ -20,6 +20,7 @@ alguns relatórios de vendas realizadas;
 - Spring Boot Starter Security
 - Spring Boot Starter Validation
 - Spring Boot DevTools
+- Spring Cache with Caffeine
 
 ### Padrões
 
