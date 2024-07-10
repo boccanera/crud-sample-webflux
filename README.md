@@ -95,6 +95,7 @@ eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJZb3V4Iiwic3ViIjoiSldUIFRva2VuIiwidXN1YXJpbyI6Inl
 }
 ```
 - Faça um request GET para /relatorios/vendas para pegar o relatorio de vendas de determinados clientes com top 10 do faturamento total. Dica: Você pode inserir mais vendas e mais clientes para gerar um relatório mais completo.
+- Você pode testar novamente o request e perceber uma diminuição considerável no request pois estamos utilizando caffeine cache para esse request.
 
 ### Prova de conceito
 Reuni capturas de tela como evidência disponíveis no link [Dropbox](https://www.dropbox.com/scl/fi/spzqydg1otb411ud9l5xm/Prova-de-conceito.zip?rlkey=p6w4ksj2cplcba1zhsi3kno3j&st=u4ue24hk&dl=0)
