@@ -8,7 +8,7 @@
 ### SOBRE
 
 Desenvolvimento de um sistema para cadastro de clientes e vendas de uma empresa, assim como exibir
-alguns relatórios de vendas realizadas;
+alguns relatórios de vendas realizadas.
 
 ### Tecnologias
 
