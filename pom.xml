@@ -8,11 +8,11 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.youx</groupId>
+	<groupId>com.teste</groupId>
 	<artifactId>teste-nailton-boccanera</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>teste-nailton-boccanera</name>
-	<description>YouX teste prático.</description>
+	<description>Teste prático.</description>
 	<url/>
 	<licenses>
 		<license/>

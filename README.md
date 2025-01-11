@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-<h3 align="center">TESTE PRÁTICO</h3>
+<h3 align="center">SAMPLE</h3>
 <p align="center">
 </div>
 
@@ -57,8 +57,8 @@ Após rodar o projeto na IDE de sua escolha siga as etapas abaixo:
 - Acesse localhost:8080/usuarios para seu criar usuário e faça um request POST enviando como body o exemplo abaixo:
   ```
   {
-  "nome": "youx",
-  "senha": "youx",
+  "nome": "sample",
+  "senha": "sample",
   "ativo": true,
   "cargo": "administrador"
   }

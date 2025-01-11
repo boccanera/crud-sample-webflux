@@ -7,15 +7,15 @@ services:
     image: postgres:14
     restart: always
     environment:
-      POSTGRES_DB: youx
-      POSTGRES_USER: youx
-      POSTGRES_PASSWORD: youx
+      POSTGRES_DB: sample
+      POSTGRES_USER: sample
+      POSTGRES_PASSWORD: sample
     volumes:
       - ./script.sql:/docker-entrypoint-initdb.d/script.sql
     ports:
       - "5432:5432"
     healthcheck:
-      test: [ "CMD", "pg_isready", "--username", "youx" ]
+      test: [ "CMD", "pg_isready", "--username", "sample" ]
       interval: 15s
       timeout: 5s
       retries: 10
@@ -27,7 +27,7 @@ services:
 # docker-compose rm
 
 #Acessando o container e verificando as tabelas ou pode ser feito por ferramentas como datagrip, dbeaver e outras.
-#docker exec -it postgres psql -U youx youx
+#docker exec -it postgres psql -U sample sample
 #\dt
 
 #Verificando o estado do postgresql
